@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="カフェ,札幌,ランチ">
+<meta name="description" content="札幌市中央区にあるゆったりとした空間が自慢のカフェです。産地にこだわったコーヒー豆や茶葉を使用したコーヒー、紅茶は飲みやすいと好評です。またランチでは日替わりメニューをご用意しております。自慢の料理と豊富なドリンクメニューでお待ちしております。">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<script src="js/css3-mediaqueries.js"></script>
+<![endif]-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/mobile.css" >
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript">
+$(function() {
+    var topBtn = $('#page-top');
+    topBtn.hide();
+    //スクロールが100に達したらボタン表示
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            topBtn.fadeIn();
+        } else {
+            topBtn.fadeOut();
+        }
+    });
+    //スクロールしてトップ
+    topBtn.click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 500);
+        return false;
+    });
+});
+</script>
+<title>pool ｜カフェ　札幌</title>
+</head>
+<body>
+  <div id="wrapper">
+    <div id="navi-wrap">
+    　<ul id="navi">
+    　  <li><a href="index.html">HOME</a></li>
+    　  <li><a href="food.html">MENU</a></li>
+    　  <li><a href="index.html"><img src="img/poolicon.png" alt="poolアイコン"></a></li>
+    　  <li><a href="about.html">ABOUT</a></li>
+    　  <li><a href="access.html">ACCESS</a></li>
+    　</ul>
+    </div>
+    <div id="top">
+      <img src="img/top05.png" alt="トップ画面">
+    </div>
+  <div id="osusume">
+    <div class="osusumeicon">
+      <img src="img/osusumebar.png" alt="おススメ">
+    </div>
+    <div class="menubar">
+    </div>
+    <div class="osusumemenu">
+      <img src="img/cake.png" alt="苺ケーキ">
+      <img src="img/cefelatte03.png" alt="カフェラテ">
+      <img src="img/hanba-gu.png" alt="ハンバーグ">
+      <img src="img/banira.png" alt="バニラアイス">
+    </div>
+  </div>
+  <div id="news">
+    <div class="newsicon">
+      <img src="img/newsbar.png" alt="NEWS">
+    </div>
+    <div class="menubar">
+    </div>
+    <p>2016.10.7 WEBサイトリニューアル</p>
+    <p>2015.10.15 WEBサイトオープン</p>
+    <p>2015.7.17　オープン</p>
+  </div>
+  <div id="sns">
+    <div class="snsicon">
+      <img src="img/snsbar.png" alt="SNS">
+    </div>
+    <div class="menubar">
+      </div>
+    <div class="snsimg">
+      <img src="img/twittericon.png" alt="twitter">
+      <img src="img/facebookicon.png" alt="fecebook">
+      <img src="img/instagramicon.png" alt="instagram">
+    </div>
+  </div>
+  <p id="page-top">
+    <a href="#wrap">
+      <img src="img/pagetop.png" alt="トップへ戻るボタン"></a></p>
+  <div id="footer">
+    <p>Copyright 2016 pool</p>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,115 @@
+@media screen and (min-width: 640px){
+img{
+  max-width: 100%;
+  height: auto;
+  width /***/:auto;　
+  border:none;
+  border: 0;
+}
+html{
+  position: relative;
+  min-height: 100%;
+}
+body{
+	font-family: "メイリオ", "Meiryo", "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro",sans-serif;height:100%;margin: 0px;
+}
+#wrapper {
+   	overflow: hidden;
+    position: relative;
+ }
+#navi {
+  width:100%;
+  margin: 0px auto 0px;
+  padding: 0;
+  height: 90px;
+  background-color:#ffffff;
+  position:fixed;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+  list-style: none;
+}
+#navi li{
+  display: inline-block;
+  vertical-align: middle;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  *display: inline;
+  *zoom:1;
+}
+#navi a{
+  text-decoration: none;
+  color: #7a4b4a;
+  font-weight: bold;
+  margin: 20px;
+}
+#navi img{
+  display: inline-block;
+  vertical-align: middle;
+  width: 70px;
+  height: 70px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  *display: inline;
+  *zoom:1;
+}
+#top img{
+  width: 100%;
+}
+.menubar{
+  width: 1000px;
+  border-bottom: 3px;
+  border-style:dashed;
+  border-color: #954444;
+  margin: auto;
+}
+#osusume{
+  text-align: center;
+  margin: 5%;
+}
+.osusumeicon{
+  margin: 5px;
+}
+.osusumemenu img{
+  margin: 30px;
+}
+#news{
+  text-align: center;
+  margin: 5%;
+}
+#news p{
+  font-size: 20px;
+  color: #492a27;
+}
+#sns{
+  text-align: center;
+  margin: 5%;
+}
+.snsicon{
+  margin: 5px;
+}
+.snsimg img{
+  margin: 30px;
+  width: 200px;
+}
+#page-top {
+    position: fixed;
+    bottom: 95px;
+    right: 20px;
+    width: 80px;
+}
+#footer{
+  width: 100%;
+  height: 100px;
+  bottom: 0px;
+  background:#816654;
+  color: #ffffff;
+  margin: 0 autos;
+}
+#footer p{
+  text-align: center;
+  top:35px;
+  position:relative;
+}
+}
