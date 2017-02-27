@@ -17,7 +17,7 @@ body{
    	overflow: hidden;
     position: relative;
  }
-#navi {
+#gnav {
   width:100%;
   margin: 0px auto 0px;
   padding: 0;
@@ -29,7 +29,7 @@ body{
   text-align: center;
   list-style: none;
 }
-#navi li{
+#gnav li{
   display: inline-block;
   vertical-align: middle;
   list-style: none;
@@ -38,13 +38,13 @@ body{
   *display: inline;
   *zoom:1;
 }
-#navi a{
+#gnav a{
   text-decoration: none;
   color: #7a4b4a;
   font-weight: bold;
   margin: 20px;
 }
-#navi img{
+#gnav img{
   display: inline-block;
   vertical-align: middle;
   width: 70px;
