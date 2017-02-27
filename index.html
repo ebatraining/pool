@@ -37,15 +37,19 @@ $(function() {
 </script>
 <title>pool ｜カフェ　札幌</title>
 
-<!--追加点１-->
-<!--head要素内に記述-->
-<script type="text/javascript" src="js/common.js"></script>
+<!--追加-->
+<script type="text/javascript">
+$(function(){
+$("#header").load("./header.html");
+$("#footer").load("./footer.html");
+})
+</script>
 
 </head>
 <body>
   <div id="wrapper">
-<!--消したところ１
-    <div id="navi-wrap">
+    <div id="header">
+      <!--
     　<ul id="navi">
     　  <li><a href="index.html">HOME</a></li>
     　  <li><a href="food.html">MENU</a></li>
@@ -53,14 +57,8 @@ $(function() {
     　  <li><a href="about.html">ABOUT</a></li>
     　  <li><a href="access.html">ACCESS</a></li>
     　</ul>
-    </div>
   -->
-  <div id="top">
-<!--変更点２-->
-<script type="text/javascript">
-	writeHeader("./");
-</script>
-      <img src="img/top05.png" alt="トップ画面">
+
     </div>
   <div id="osusume">
     <div class="osusumeicon">
@@ -75,7 +73,7 @@ $(function() {
       <img src="img/banira.png" alt="バニラアイス">
     </div>
   </div>
-    <div id="news">
+  <div id="news">
     <div class="newsicon">
       <img src="img/newsbar.png" alt="NEWS">
     </div>
@@ -101,7 +99,6 @@ $(function() {
     <a href="#wrap">
       <img src="img/pagetop.png" alt="トップへ戻るボタン"></a></p>
   <div id="footer">
-    <p>Copyright 2016 pool</p>
   </div>
 </div>
 </body>
