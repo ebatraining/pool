@@ -36,9 +36,15 @@ $(function() {
 });
 </script>
 <title>pool ｜カフェ　札幌</title>
+
+<!--追加点１-->
+<!--head要素内に記述-->
+<script type="text/javascript" src="./js/common.js"></script>
+
 </head>
 <body>
   <div id="wrapper">
+<!--消したところ１
     <div id="navi-wrap">
     　<ul id="navi">
     　  <li><a href="index.html">HOME</a></li>
@@ -48,7 +54,12 @@ $(function() {
     　  <li><a href="access.html">ACCESS</a></li>
     　</ul>
     </div>
-    <div id="top">
+  -->
+  <div id="top">
+<!--変更点２-->
+<script type="text/javascript">
+	writeHeader();
+</script>
       <img src="img/top05.png" alt="トップ画面">
     </div>
   <div id="osusume">
@@ -64,7 +75,7 @@ $(function() {
       <img src="img/banira.png" alt="バニラアイス">
     </div>
   </div>
-  <div id="news">
+    <div id="news">
     <div class="newsicon">
       <img src="img/newsbar.png" alt="NEWS">
     </div>
