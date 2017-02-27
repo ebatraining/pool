@@ -7,7 +7,7 @@ img{
   border: 0;
 }
 html{
-  position: relative;
+  /*position: relative;*/
   min-height: 100%;
 }
 body{
@@ -106,29 +106,41 @@ body{
   background:#816654;
   color: #ffffff;
   margin: 0 auto;
+  position: relative;
 }
 
 #footer img{
-  position: relative;
   width:100%;
   height:auto;
 }
 
 #footer p{
   text-align: center;
-  top:95%;
+  top:83%;
   left:40%;
   position:absolute;
 }
 
 .swich{
-  overflow: hidden;
-  position:absolute;;
+  width:100%;
+  position:absolute;
   top:5%;
-  left:20%;
+  left:12%;
+  overflow: hidden;
+  font-size: 150%
 }
 
 .swich a{
   float:left;
+  width:20%;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+.logo{
+  position: absolute;
+  top:10%;
+  left:8%;
 }
 }
