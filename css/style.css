@@ -7,13 +7,14 @@ img{
   border: 0;
 }
 html{
-  /*position: relative;*/
+  position: relative;
   min-height: 100%;
 }
 body{
 	font-family: "メイリオ", "Meiryo", "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro",sans-serif;height:100%;margin: 0px;
 }
 #wrapper {
+    /*width: 100%;*/
    	overflow: hidden;
     position: relative;
  }
@@ -115,9 +116,8 @@ body{
 }
 
 #footer p{
-  text-align: center;
   top:83%;
-  left:40%;
+  left:30%;
   position:absolute;
 }
 
@@ -127,7 +127,8 @@ body{
   top:5%;
   left:12%;
   overflow: hidden;
-  font-size: 150%
+  font-size: 150%;
+  padding: 2%;
 }
 
 .swich a{
@@ -140,7 +141,10 @@ body{
 
 .logo{
   position: absolute;
-  top:10%;
-  left:8%;
+  top:23%;
+  left:4%;
+  padding: 2%;
+  width:40%;
+  height: auto;
 }
 }

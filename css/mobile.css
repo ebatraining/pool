@@ -102,16 +102,52 @@ img {
   width: 10%;
 }
 #footer{
-  width: 100%;
-  height: 100px;
-  bottom: 0px;
-  background: #816654;
-  color: #ffffff;
-  margin: 0px;
+    width: 100%;
+    height: auto;
+    bottom: 0px;
+    background:#816654;
+    color: #ffffff;
+    margin: 0 auto;
+    position: relative;
 }
+
+#footer img{
+  width:100%;
+  height:auto;
+}
+
 #footer p{
+  top:83%;
+  left:30%;
+  position:absolute;
+  padding: 2%;
+}
+
+.swich{
+  width:100%;
+  position:absolute;
+  top:5%;
+  left:12%;
+  overflow: hidden;
+  font-size: 150%;
+  padding: 2%;
+}
+
+.swich a{
+  float:left;
+  width:20%;
   text-align: center;
-  top:35px;
-  position:relative;
+  color: white;
+  text-decoration: none;
+  font-size: 30%;
+}
+
+.logo{
+  position: absolute;
+  top:23%;
+  left:4%;
+  padding: 2%;
+  width:40%;
+  height: auto;
 }
 }
