@@ -1,51 +1,61 @@
-@media screen and (min-width: 640px){
-img{
-  max-width: 100%;
-  height: auto;
-  width /***/:auto;　
-  border:none;
-  border: 0;
-}
-html{
-  position: relative;
-  min-height: 100%;
-}
+@media screen and (min-width:768px){
+
 body{
 	font-family: "メイリオ", "Meiryo", "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro",sans-serif;height:100%;margin: 0px;
 }
-#wrapper {
-    /*width: 100%;*/
-   	overflow: hidden;
-    position: relative;
- }
-#navi {
+
+#wrapper{
+  width: 100%;
+max-width:1000px;
+margin:auto;
+}
+
+#header{
   width:100%;
-  margin: 0px auto 0px;
-  padding: 0;
-  height: 90px;
+}
+
+.top_img{
+  width:100%;
+  height:auto;
+}
+.top_img img{
+  width:100%;
+  height: auto;
+}
+
+.navi_01{
+  width:100%;
+  margin:0;
+  padding: 0.5em;
+  height: 20%;
   background-color:#ffffff;
-  position:fixed;
+  /*position:fixed;
   top: 0px;
   left: 0px;
+  */
   text-align: center;
   list-style: none;
+  display: block;
 }
-#navi li{
+
+.navi_01 li{
   display: inline-block;
   vertical-align: middle;
   list-style: none;
-  margin: 0 auto;
+  margin: 0.5em 2% 0.5em 2%;
   padding: 0;
+  /*
   *display: inline;
   *zoom:1;
+  */
 }
-#navi a{
+.navi_01 a{
   text-decoration: none;
   color: #7a4b4a;
   font-weight: bold;
-  margin: 20px;
 }
-#navi img{
+
+.navi_01 img{
   display: inline-block;
   vertical-align: middle;
   width: 70px;
@@ -55,83 +65,122 @@ body{
   *display: inline;
   *zoom:1;
 }
-#top img{
-  width: 100%;
-}
-.menubar{
-  width: 1000px;
+.menu_bar01,
+.menu_bar02,
+.menu_bar03{
+  width: 75%;
   border-bottom: 3px;
   border-style:dashed;
   border-color: #954444;
   margin: auto;
 }
-#osusume{
-  text-align: center;
-  margin: 5%;
-}
-.osusumeicon{
-  margin: 5px;
-}
-.osusumemenu img{
-  margin: 30px;
-}
-#news{
-  text-align: center;
-  margin: 5%;
-}
-#news p{
-  font-size: 20px;
-  color: #492a27;
-}
+
+#osusume,
+#news,
 #sns{
   text-align: center;
   margin: 5%;
 }
-.snsicon{
-  margin: 5px;
+
+.menu_icon,
+.news_icon,
+.sns_icon{
+  margin: 2%;
 }
-.snsimg img{
-  margin: 30px;
-  width: 200px;
+
+.menu_icon img,
+.news_icon img,
+.sns_icon img{
+  margin:2%;
 }
+
+#news p{
+  font-size:1.5em;
+  color: #492a27;
+}
+
+.menu_01{
+  width: 100%;
+}
+
+.menu_01 img{
+  margin:5% 1%;
+}
+
+.sns_img img{
+  margin: 5%;
+  width:20%
+}
+
+/*
 #page-top {
     position: fixed;
-    bottom: 95px;
-    right: 20px;
-    width: 80px;
+    bottom: 13%;
+    right: 6%;
+    width: 7%;
+    z-index: 100000;
 }
+*/
+
+.pagetop{
+  position:fixed;
+  bottom: 3em;
+  right:15%;
+  z-index: 100000;
+}
+
+.pagetop a
+   {
+   display: block;
+   text-decoration: none;
+   }
+
+.pagetop:hover
+{
+   opacity: 0.85 ;
+ }
+
 #footer{
   width: 100%;
   height: auto;
   bottom: 0px;
   background:#816654;
   color: #ffffff;
-  margin: 0 auto;
   position: relative;
+  background-image: url("./img/background.jpg")
 }
 
-#footer img{
+.background img{
   width:100%;
-  height:auto;
 }
 
-#footer p{
+.shop p{
   top:83%;
   left:30%;
   position:absolute;
 }
 
-.swich{
+.address{
+  position:absolute;
+  top:48%;
+  left:4%;
+  padding: 2%;
+  width:45%;
+  height: auto;
+  line-height: 0.5em;
+}
+
+.navi_02{
   width:100%;
   position:absolute;
   top:5%;
   left:12%;
   overflow: hidden;
-  font-size: 150%;
+  font-size: 1.5em;
   padding: 2%;
 }
 
-.swich a{
+.navi_02 a{
   float:left;
   width:20%;
   text-align: center;
@@ -141,10 +190,13 @@ body{
 
 .logo{
   position: absolute;
-  top:23%;
+  top:26%;
   left:4%;
   padding: 2%;
   width:40%;
   height: auto;
+}
+.logo img{
+  width:12em;
 }
 }
