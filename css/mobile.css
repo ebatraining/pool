@@ -34,14 +34,15 @@ margin:auto;
   */
   text-align: center;
   list-style: none;
-  display: block;
+	/*
+	display: block;
+	*/
 }
 
 .navi_01 li{
   display: inline-block;
   vertical-align: middle;
   list-style: none;
-  margin: 0.5em 2% 0.5em 2%;
   padding: 0;
   /*
   *display: inline;
@@ -52,6 +53,7 @@ margin:auto;
   text-decoration: none;
   color: #7a4b4a;
   font-weight: bold;
+	font-size: 0.5em;
 }
 
 .navi_01 img{
@@ -64,6 +66,7 @@ margin:auto;
   *display: inline;
   *zoom:1;
 }
+
 .menu_bar01,
 .menu_bar02,
 .menu_bar03{
@@ -94,7 +97,7 @@ margin:auto;
 }
 
 #news p{
-  font-size:1.5em;
+  font-size:1em;
   color: #492a27;
 }
 
@@ -108,7 +111,7 @@ margin:auto;
 
 .sns_img img{
   margin: 5%;
-  width:20%
+  width:30%
 }
 /*
 #page-top {
@@ -136,64 +139,180 @@ margin:auto;
 {
    opacity: 0.85 ;
  }
+ #footer{
+   width: 100%;
+   height: auto;
+   bottom: 0px;
+   color: #ffffff;
+   position: relative;
+   background-image: url("./img/background.jpg")
+ }
 
-#footer{
-  width: 100%;
-  height: auto;
-  bottom: 0px;
-  background:#816654;
-  color: #ffffff;
-  position: relative;
-  background-image: url("./img/background.jpg")
+ .background img{
+   width:100%;
+ }
+
+ .shop p{
+   top:87%;
+   left:35%;
+   position:absolute;
+	 font-size: 0.2em;
+ }
+
+ .address{
+   position:absolute;
+   top:53%;
+   left:4%;
+   padding: 2%;
+   width:45%;
+   height: auto;
+   line-height: 0.3em;
+ }
+.address p{
+	font-size: 0.6em;
+}
+ .navi_02{
+   width:100%;
+   position:absolute;
+   top:5%;
+   left:12%;
+   overflow: hidden;
+   font-size: 1.5em;
+   padding: 2%;
+
+ }
+
+ .navi_02 a{
+   float:left;
+   width:20%;
+   text-align: center;
+   color: white;
+   text-decoration: none;
+	 font-size: 0.3em;
+ }
+
+ .logo{
+   position: absolute;
+   top:26%;
+   left:4%;
+   padding: 2%;
+   width:40%;
+   height: auto;
+ }
+ .logo img{
+   width:6em;
+ }
+/*追加*/
+#kodawari h1{
+	width:100%;
+	margin: 3% 25% 10% 25%;
+}
+#coffee,
+#tea,
+#hanbai{
+	width: 100%;
+	padding-left: 20%;
+	padding-bottom: 8%;
 }
 
-.background img{
-  width:100%;
+#coffee img,
+#tea img,
+#hanbai img{
+	width:25%;
+	height: auto;
+}
+.setumei{
+	line-height: 1em;
 }
 
-.shop p{
-  top:83%;
-  left:30%;
-  position:absolute;
+/*アクセス*/
+
+#access{
+	width:100%;
+	text-align: center;
 }
 
-.address{
-  position:absolute;
-  top:48%;
-  left:4%;
-  padding: 2%;
-  width:45%;
-  height: auto;
-  line-height: 0.5em;
+.jyusyo{
+	line-height: 2em;
 }
 
-.navi_02{
-  width:100%;
-  position:absolute;
-  top:5%;
-  left:12%;
-  overflow: hidden;
-  font-size: 1.5em;
-  padding: 2%;
+.map iframe{
+	width:500px;
+ height:300px;
+ text-align: center;
+ margin-top: 50px;
 }
 
-.navi_02 a{
-  float:left;
-  width:20%;
-  text-align: center;
-  color: white;
+/*デザート*/
+
+#menu{
+	width:100%;
+	margin-top: 8%;
+}
+
+
+#menuwrap{
+	width:100%;
+	float:right;
+	margin-top: 8%;
+	color: #492a27
+}
+
+#menu ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+	overflow: hidden;
+}
+#menu li{
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+#menu li a{
+  display: block;
+  border-left: 8px solid #C97556;
+  background-color: #e9ddc0;
+  padding: 5% 10%;
   text-decoration: none;
+  color: #ac453b;
+  width: 60%;
+  margin: 1%;
+  text-align: left;
+  font-size: 1em;
+  font-weight: bold;
+}
+#menu li a:hover{
+  border-left: 8px solid #990033;
+  background-color: #e9ddc0;
+}
+.bar{
+  width: 80%;
+  border-bottom: 2px;
+  border-style:solid;
+  border-color: #954444;
+	margin-bottom: 5%;
 }
 
-.logo{
-  position: absolute;
-  top:26%;
-  left:4%;
-  padding: 2%;
-  width:40%;
-  height: auto;
+#menuwrap h2,
+#menuwrap h3{
+  color: #954444;
 }
-.logo img{
-  width:12em;
+.main_group{
+	margin-top: 5%;
+	overflow: hidden;
+}
+
+.group1{
+  float:left;
+	width:50%;
+}
+.group2{
+  float: right;
+	width: 50%;
+}
+
+.dessert02{
+	line-height: 0.4em;
 }
 }
