@@ -11,10 +11,57 @@
 <script src="js/css3-mediaqueries.js"></script>
 <![endif]-->
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<link rel="stylesheet" type="text/css" href="css/about.css">
-<link rel="stylesheet" type="text/css" href="css/about_mobile.css" >
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/mobile.css">
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 <script type="text/javascript">
+$(document).ready(function(){
+
+    $(".pagetop").hide();
+
+    $(window).on("scroll", function() {
+
+        if ($(this).scrollTop() > 100) {
+            $('.pagetop').slideDown("fast");
+        } else {
+            $('.pagetop').slideUp("fast");
+        }
+
+
+        scrollHeight = $(document).height();
+        // ドキュメントの高さ
+        scrollPosition = $(window).height() + $(window).scrollTop();
+        //　ウィンドウの高さ+スクロールした高さ→　現在のトップからの位置
+        footHeight = $("footer").innerHeight();
+        // フッターの高さ
+
+        if ( scrollHeight - scrollPosition  <= footHeight ) {
+        // 現在の下から位置が、フッターの高さの位置にはいったら
+        //  ".gotop"のpositionをabsoluteに変更し、フッターの高さの位置にする
+            $(".pagetop").css({
+                "position":"absolute",
+                "bottom": footHeight
+            });
+        } else {
+        // それ以外の場合は元のcssスタイルを指定
+            $(".pagetop").css({
+                "position":"fixed",
+                "bottom": "0px"
+            });
+        }
+    });
+
+    // トップへスムーススクロール
+    $('.pagetop a').click(function () {
+        $('body,html').animate({
+        scrollTop: 0
+      }, 450);
+        // ページのトップへ 500 のスピードでスクロールする
+        return false;
+     });
+
+});
+/*1
 $(function() {
     var topBtn = $('#page-top');
     topBtn.hide();
@@ -34,6 +81,7 @@ $(function() {
         return false;
     });
 });
+*/
 </script>
 <script type="text/javascript">
 $(function(){
@@ -46,48 +94,43 @@ $("#footer").load("footer.html");
 </head>
 <body>
   <div id="wrapper">
-    <div id="navi-wrap">
-    　<ul id="navi">
-    　  <li><a href="index.html">HOME</a></li>
-    　  <li><a href="food.html">MENU</a></li>
-    　  <li><a href="index.html"><img src="img/poolicon.png" alt="poolアイコン"></a></li>
-    　  <li><a href="about.html">ABOUT</a></li>
-    　  <li><a href="access.html">ACCESS</a></li>
-    　</ul>
-  </div>
+    <p class="pagetop">
+      <a href="#wrapper" title="トップへ戻る">
+      <img src="./img/pagetop.png" alt="▲PAGE TOP" /></a>
+    </p>
+    <div id="header">
+    </div>
   <div id="kodawari">
     <h1>コーヒーと紅茶のこだわり</h1>
     <div id="coffee">
       <img src="img/coffeebean.png" alt="コーヒー豆">
     <div class="setumei">
     <h2>コーヒー豆</h2>
-    <p>美幌町の喫茶室豆灯さんのお豆を使用しております。<br>
-      バニラのような香りとコクが感じられます。<br>
-      アイスコーヒーはまろやかで後味がスッキリしています。</p>
+    <p>美幌町の喫茶室豆灯さんのお豆を使用しております。</p>
+    <p>バニラのような香りとコクが感じられます。</p>
+    <p>アイスコーヒーはまろやかで後味がスッキリしています。</p>
     </div>
     </div>
     <div id="tea">
       <img src="img/tea01.png" alt="茶葉">
     <div class="setumei">
     <h2>茶葉</h2>
-    <p>静岡県の水車むら農園さんの国産無農薬、化学肥料を<br>
-      使わず栽培された紅茶を使用させて頂いております。<br>
-      渋みが少なくフルーティで飲みやすい紅茶です。<br>
-      ミルクティ用はしっかりこくのある茶葉です。</p>
+    <p>静岡県の水車むら農園さんの国産無農薬、化学肥料を</p>
+    <p>使わず栽培された紅茶を使用させて頂いております。</p>
+    <p>渋みが少なくフルーティで飲みやすい紅茶です。</p>
+    <p>ミルクティ用はしっかりこくのある茶葉です。</p>
     </div>
     </div>
     <div id="hanbai">
       <img src="img/milktea.png" alt="ミルクティー">
     <div class="setumei">
     <h3>珈琲・紅茶は店頭でも販売しております。</h3>
-    <p>コーヒー（豆灯）　100g　￥500<br>
-      紅茶（七夕）　100g（一袋）　￥780</p>
+    <p>コーヒー（豆灯）　100g　￥500</p>
+    <p>紅茶（七夕）　100g（一袋）　￥780</p>
     </div>
     </div>
   </div>
-  <p id="page-top">
-    <a href="#wrap">
-      <img src="img/pagetop.png" alt="トップへ戻るボタン"></a></p>
+
   <div id="footer">
     <p>Copyright 2016 pool</p>
   </div>

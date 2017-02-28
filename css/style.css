@@ -6,8 +6,8 @@ body{
 
 #wrapper{
   width: 100%;
-max-width:1000px;
-margin:auto;
+	max-width:1000px;
+	margin:auto;
 }
 
 #header{
@@ -199,4 +199,133 @@ margin:auto;
 .logo img{
   width:12em;
 }
+
+/*こだわり*/
+#kodawari h1{
+	width:100%;
+	margin: 3% 25% 10% 25%;
+}
+#coffee,
+#tea,
+#hanbai{
+	width: 100%;
+	padding-left: 20%;
+	padding-bottom: 8%;
+}
+
+#coffee img,
+#tea img,
+#hanbai img{
+	width:25%;
+	height: auto;
+}
+.setumei{
+	line-height: 1em;
+}
+
+/*アクセス*/
+
+#access{
+	width:100%;
+	text-align: center;
+}
+
+.jyusyo{
+	line-height: 2em;
+}
+
+.map iframe{
+	width:500px;
+ height:300px;
+ text-align: center;
+ margin-top: 50px;
+}
+
+/*デザート*/
+#block_01,
+#block_02{
+	overflow: hidden;
+}
+#menu{
+	width:30%;
+	float:left;
+}
+#menuwrap{
+	width:60%;
+	float:right;
+	margin-top: 8%;
+	color: #492a27
+}
+#menu{
+  margin-top: 8%;
+}
+#menu ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#menu li{
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+#menu li a{
+  display: block;
+  border-left: 8px solid #C97556;
+  background-color: #e9ddc0;
+  padding: 5% 10%;
+  text-decoration: none;
+  color: #ac453b;
+  width: 60%;
+  margin: 1%;
+  text-align: left;
+  font-size: 1em;
+  font-weight: bold;
+}
+#menu li a:hover{
+  border-left: 8px solid #990033;
+  background-color: #e9ddc0;
+}
+.bar{
+  width: 80%;
+  border-bottom: 2px;
+  border-style:solid;
+  border-color: #954444;
+	margin-bottom: 5%;
+}
+
+#menuwrap h2,
+#menuwrap h3{
+  color: #954444;
+}
+.main_group,
+.group5,
+.pasuta,
+.main_rice{
+	margin-top: 5%;
+	overflow: hidden;
+}
+
+.group1,
+.group3,
+.drink08,
+.pasuta01,
+.rice{
+  float:left;
+	width:45%;
+}
+.group2,
+.group4,
+.drink09
+.pasuta02
+.rice02{
+  float: right;
+	width: 45%;
+}
+
+.dessert02{
+	line-height: 0.4em;
+}
+
+
 }
