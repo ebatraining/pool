@@ -301,7 +301,8 @@ body{
 .main_group,
 .group5,
 .pasuta,
-.main_rice{
+.main_rice,
+.main_group_d1{
 	margin-top: 5%;
 	overflow: hidden;
 }
@@ -327,6 +328,5 @@ body{
 .sandwich01{
 	line-height: 0.4em;
 }
-
 
 }

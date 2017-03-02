@@ -25,7 +25,7 @@ margin:auto;
 .navi_01{
   width:100%;
   margin:0;
-  padding: 0.5em;
+  padding: 0.5em 0;
   height: 20%;
   background-color:#ffffff;
   /*position:fixed;
@@ -124,8 +124,8 @@ margin:auto;
 */
 .pagetop{
   position:fixed;
-  bottom: 3em;
-  right:15%;
+  bottom: 1em;
+  right:1%;
   z-index: 100000;
 }
 
@@ -133,8 +133,11 @@ margin:auto;
    {
    display: block;
    text-decoration: none;
+	 width:80%;
    }
-
+.pagetop img{
+	width:80%;
+}
 .pagetop:hover
 {
    opacity: 0.85 ;
@@ -148,38 +151,37 @@ margin:auto;
    background-image: url("./img/background.jpg")
  }
 
+
  .background img{
    width:100%;
  }
 
  .shop p{
-   top:87%;
-   left:35%;
+   top:78%;
+   left:30%;
    position:absolute;
 	 font-size: 0.2em;
  }
 
  .address{
    position:absolute;
-   top:53%;
+   top:40%;
    left:4%;
    padding: 2%;
-   width:45%;
+   width:48%;
    height: auto;
    line-height: 0.3em;
  }
 .address p{
-	font-size: 0.6em;
+	font-size: 0.3em;
 }
  .navi_02{
-   width:100%;
+   width:88%;
    position:absolute;
    top:5%;
-   left:12%;
+   left:10%;
    overflow: hidden;
    font-size: 1.5em;
-   padding: 2%;
-
  }
 
  .navi_02 a{
@@ -193,10 +195,10 @@ margin:auto;
 
  .logo{
    position: absolute;
-   top:26%;
+   top:20%;
    left:4%;
    padding: 2%;
-   width:40%;
+   width:30%;
    height: auto;
  }
  .logo img{
@@ -246,14 +248,14 @@ margin:auto;
 /*デザート*/
 
 #menu{
-	width:100%;
-	margin-top: 8%;
+	width:98%;
+	margin:8% 0% 2% 0%;
 }
 
 
 #menuwrap{
+	text-align: center;
 	width:100%;
-	float:right;
 	margin-top: 8%;
 	color: #492a27
 }
@@ -263,11 +265,16 @@ margin:auto;
   padding: 0;
   list-style: none;
 	overflow: hidden;
+	width: 93%;
+	padding-left: 7%;
 }
 #menu li{
   display: inline;
-  padding: 0;
+  padding: 2%;
   margin: 0;
+	float: left;
+	width:5em;
+	height:2em;
 }
 #menu li a{
   display: block;
@@ -276,10 +283,10 @@ margin:auto;
   padding: 5% 10%;
   text-decoration: none;
   color: #ac453b;
-  width: 60%;
+  width: 80%;
   margin: 1%;
-  text-align: left;
-  font-size: 1em;
+  text-align: center;
+  font-size: 0.6em;
   font-weight: bold;
 }
 #menu li a:hover{
@@ -291,11 +298,11 @@ margin:auto;
   border-bottom: 2px;
   border-style:solid;
   border-color: #954444;
-	margin-bottom: 5%;
+	text-align: center;
+	margin: auto;
 }
 
-#menuwrap h2,
-#menuwrap h3{
+#menuwrap h2,{
   color: #954444;
 }
 .main_group{
@@ -315,4 +322,15 @@ margin:auto;
 .dessert02{
 	line-height: 0.4em;
 }
+.main_group_d1{
+	text-align: center;
+	overflow: hidden;
+}
+
+.group_d1,
+.group_d2{
+	width:80%;
+	padding:10%;
+}
+
 }
