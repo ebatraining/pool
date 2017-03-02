@@ -164,7 +164,7 @@ body{
 
 .address{
   position:absolute;
-  top:48%;
+  top:40%;
   left:4%;
   padding: 2%;
   width:45%;
@@ -192,10 +192,10 @@ body{
 
 .logo{
   position: absolute;
-  top:26%;
+  top:20%;
   left:4%;
   padding: 2%;
-  width:40%;
+  width:20%;
   height: auto;
 }
 
@@ -206,6 +206,7 @@ body{
 
 #kodawari{
 	width:100%;
+  text-align: center;
 }
 
 #kodawari h1,
@@ -215,16 +216,12 @@ body{
 	/*
 	margin: 3% 0% 10% 0%;
 	*/
-	padding:3% 0 10% 0;
-	font-size: 120%;
-	line-height: 100%;
+	font-size: 200%;
 }
 
 #coffee,
 #tea,
 #hanbai{
-	width: 80%;
-	padding-left: 15%;
 	padding-bottom: 8%;
 }
 
@@ -236,8 +233,8 @@ body{
 }
 
 .setumei{
-	line-height: 1em;
-	width:80%;
+	line-height: 100%;
+	width:90;
 	padding: 1% 0;
 }
 
@@ -248,15 +245,13 @@ body{
 	text-align: center;
 }
 
-.jyusyo{
-	line-height: 2em;
-}
-
 .map iframe{
-	width:500px;
- height:300px;
+	width:60%;
+ height:auto;
  text-align: center;
- margin-top: 50px;
+ margin-top: 5%;
+ margin-bottom: 5%;
+
 }
 
 /*デザート*/
@@ -305,7 +300,7 @@ body{
   width: 60%;
   margin: 1%;
   text-align: left;
-  font-size: 1em;
+  font-size: 100%;
   font-weight: bold;
 }
 
@@ -346,19 +341,21 @@ body{
 	width:45%;
 }
 
+.pasuta02{
+	float: right;
+}
 .group2,
 .group4,
-.drink09
-.pasuta02,
+.drink09,
 .rice02,
 .group_d2{
   float: right;
-	width: 45%;
+  width: 45%;
 }
 
 .dessert02,
 .sandwich01{
-	line-height: 0.4em;
+	line-height: 30%;
 }
 
 }

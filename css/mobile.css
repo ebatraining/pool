@@ -1,12 +1,13 @@
 @media screen and (max-width:767px){
 
 body{
-  font-family: "メイリオ", "Meiryo", "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro",sans-serif;height:100%;margin: 0px;
+	font-family: "メイリオ", "Meiryo", "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro",sans-serif;height:100%;margin: 0px;
 }
 
 #wrapper{
-width:100%;
-margin:auto;
+	width: 100%;
+	max-width:1000px;
+	margin:auto;
 }
 
 #header{
@@ -23,9 +24,9 @@ margin:auto;
 }
 
 .navi_01{
-  width:98%;
+  width:100%;
   margin:0;
-  padding: 1%;
+  padding: 2% 0;
   height: 20%;
   background-color:#ffffff;
   /*position:fixed;
@@ -34,14 +35,11 @@ margin:auto;
   */
   text-align: center;
   list-style: none;
-  /*
   display: block;
-  */
 }
 
 .navi_01 li{
   display: inline-block;
-  vertical-align: middle;
   list-style: none;
   padding: 0;
   /*
@@ -49,24 +47,24 @@ margin:auto;
   *zoom:1;
   */
 }
+
 .navi_01 a{
   text-decoration: none;
   color: #7a4b4a;
   font-weight: bold;
-  font-size: 0.5em;
+  font-size: 20%;
 }
 
 .navi_01 img{
   display: inline-block;
   vertical-align: middle;
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   margin-top: 10px;
   margin-bottom: 10px;
   *display: inline;
   *zoom:1;
 }
-
 .menu_bar01,
 .menu_bar02,
 .menu_bar03{
@@ -91,16 +89,16 @@ margin:auto;
 }
 
 .menu_icon img{
-  width:100%;
+	width: 80%;
 }
 
 .news_icon img,
 .sns_icon img{
-  width:20%;
+	width: 50%;
 }
 
 #news p{
-  font-size:1em;
+  font-size:90%;
   color: #492a27;
 }
 
@@ -109,182 +107,200 @@ margin:auto;
 }
 
 .menu_01 img{
-  margin:3%;
+  margin:5% 1%;
 }
 
 .sns_img img{
   margin: 5%;
-  width:30%
+  width:20%
 }
-/*
+
 #page-top {
     position: fixed;
-    bottom: 13%;
-    right: 6%;
-    width: 7%;
-    z-index: 100000;
-}
-*/
-#page-top{
-  position: fixed;
-  bottom:20px;
-  right:20px;
-  font-size: 77%;
-  z-index: 100000;
+    bottom: 0;
+    right: 1%;
+    z-index: 1000000;
 }
 
-#page-top a{
-  text-decoration: none;
-  color:#fff;
-  width: 100px;
-  padding:30px 0;
-  text-align: center;
-  display: block;
-  border-radius: 5px;
+#page-top a {
+    color: #fff;
+    text-align: center;
+    display: block;
+    z-index: 
 }
 
-#page-top a:hover{
-  text-decoration: none;
+#page-top a:hover {
+    text-decoration: none;
 }
 
- #footer{
-   width: 100%;
-   height: auto;
-   bottom: 0px;
-   color: #ffffff;
-   position: relative;
-   background-image: url("./img/background.jpg")
- }
+#page-top img{
+	width:56%;
+}
 
+#footer{
+  width: 100%;
+  height: auto;
+  bottom: 0px;
+  /*
+  background:#816654;
+  */
+  color: #ffffff;
+  position: relative;
+  background-image: url("./img/background.jpg")
+}
 
- .background img{
-   width:100%;
- }
+.background img{
+  width:100%;
+}
 
 .shop{
   position: absolute;
-  top: 78%;
+  top: 83%;
   left: 0%;
   width: 100%;
 }
- .shop p{
+.shop p{
   text-align: center;
-  font-size: 0.1em;
- }
+  font-size: 5%;
+}
 
- .address{
-   position:absolute;
-   top:40%;
-   left:4%;
-   padding: 2%;
-   width:48%;
-   height: auto;
-   line-height: 0.3em;
- }
+.address{
+  position:absolute;
+  top:40%;
+  left:4%;
+  height: auto;
+  line-height: 30%;
+  font-size: 5%;
+}
+
 .address p{
-  font-size: 0.3em;
+	font-size: 10%;
+	line-height: 40%;
 }
- .navi_02{
-   width:88%;
-   position:absolute;
-   top:5%;
-   left:10%;
-   overflow: hidden;
-   font-size: 1.5em;
- }
 
- .navi_02 a{
-   float:left;
-   width:20%;
-   text-align: center;
-   color: white;
-   text-decoration: none;
-   font-size: 0.3em;
- }
+.navi_02{
+  width:88%;
+  position:absolute;
+  top:5%;
+  left:12%;
+  overflow: hidden;
+  font-size: 90%;
+  padding-top:2%;
+}
 
- .logo{
-   position: absolute;
-   top:20%;
-   left:4%;
-   padding: 2%;
-   width:30%;
-   height: auto;
- }
- .logo img{
-   width:6em;
- }
-/*追加*/
-#kodawari h1{
+.navi_02 a{
+  float:left;
+  width:20%;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 10%;
+}
+
+.logo{
+  position: absolute;
+  top:20%;
+  left:4%;
+  width:20%;
+  height: auto;
+}
+
+.logo img{
   width:100%;
-  margin: 3% 25% 10% 25%;
+  height: auto;
 }
+
+#kodawari{
+	width:100%;
+  text-align: center;
+}
+
+#kodawari h1,
+#kodawari h2,
+#kodawari h3{
+	text-align: center;
+	/*
+	margin: 3% 0% 10% 0%;
+	*/
+	font-size: 110%;
+	line-height: 100%;
+}
+
 #coffee,
 #tea,
 #hanbai{
-  width: 100%;
-  padding-left: 20%;
-  padding-bottom: 8%;
+	padding-bottom: 8%;
+	text-align: center;
 }
 
 #coffee img,
 #tea img,
 #hanbai img{
-  width:25%;
-  height: auto;
-}
-.setumei{
-  line-height: 1em;
+	width:30%;
+	height: auto;
 }
 
+.setumei{
+	line-height: 100%;
+	width:90%;
+	padding: 1% 5%;
+}
+
+.setumei p{
+	font-size: 20%;
+}
 /*アクセス*/
 
 #access{
-  width:100%;
-  text-align: center;
-}
-
-.jyusyo{
-  line-height: 2em;
+	width:100%;
+	text-align: center;
 }
 
 .map iframe{
-  width:500px;
- height:300px;
+	width:60%;
+ height:auto;
  text-align: center;
- margin-top: 50px;
+ margin-top: 5%;
+ margin-bottom: 5%;
+
 }
 
 /*デザート*/
-
-#menu{
-  width:98%;
-  margin:8% 0% 2% 0%;
+#block_01,
+#block_02{
+	overflow: hidden;
 }
 
+#menu{
+	width:30%;
+	float:left;
+	margin-left: 3%;
+}
 
 #menuwrap{
-  text-align: center;
-  width:100%;
+	width:60%;
+	float:right;
+	margin-top: 8%;
+	margin-right: 5%;
+	color: #492a27
+}
+
+#menu{
   margin-top: 8%;
-  color: #492a27
 }
 
 #menu ul{
   margin: 0;
   padding: 0;
   list-style: none;
-  overflow: hidden;
-  width: 93%;
-  padding-left: 7%;
 }
+
 #menu li{
   display: inline;
-  padding: 2%;
+  padding: 0;
   margin: 0;
-  float: left;
-  width:5em;
-  height:2em;
 }
+
 #menu li a{
   display: block;
   border-left: 8px solid #C97556;
@@ -292,54 +308,65 @@ margin:auto;
   padding: 5% 10%;
   text-decoration: none;
   color: #ac453b;
-  width: 80%;
+  width: 60%;
   margin: 1%;
-  text-align: center;
-  font-size: 0.6em;
+  text-align: left;
+  font-size: 100%;
   font-weight: bold;
 }
+
 #menu li a:hover{
   border-left: 8px solid #990033;
   background-color: #e9ddc0;
 }
+
 .bar{
   width: 80%;
   border-bottom: 2px;
   border-style:solid;
   border-color: #954444;
-  text-align: center;
-  margin: auto;
+  margin-bottom: 5%;
 }
 
-#menuwrap h2,{
+#menuwrap h2,
+#menuwrap h3{
   color: #954444;
 }
-.main_group{
-  margin-top: 5%;
-  overflow: hidden;
-}
 
-.group1{
-  float:left;
-  width:50%;
-}
-.group2{
-  float: right;
-  width: 50%;
-}
-
-.dessert02{
-  line-height: 0.4em;
-}
+.main_group,
+.group5,
+.pasuta,
+.main_rice,
 .main_group_d1{
-  text-align: center;
-  overflow: hidden;
+	margin-top: 5%;
+	overflow: hidden;
 }
 
-.group_d1,
+.group1,
+.group3,
+.drink08,
+.pasuta01,
+.rice,
+.group_d1{
+  float:left;
+	width:45%;
+}
+
+.pasuta02{
+	float: right;
+}
+.group2,
+.group4,
+.drink09,
+.rice02,
 .group_d2{
-  width:80%;
-  padding:10%;
+  float: right;
+  width: 45%;
+}
+
+.dessert02,
+.sandwich01{
+	line-height: 30%;
 }
 
 }
