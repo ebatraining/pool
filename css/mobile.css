@@ -151,12 +151,12 @@ margin:auto;
    color: #ffffff;
    position: relative;
    background-image: url("./img/background.jpg")
- }
+}
 
 
  .background img{
    width:100%;
- }
+}
 
 .shop{
   position: absolute;
@@ -170,7 +170,7 @@ margin:auto;
   font-size: 0.1em;
 }
 
- .address{
+.address{
    position:absolute;
    top:40%;
    left:4%;
@@ -178,7 +178,7 @@ margin:auto;
    width:60%;
    height: auto;
    line-height: 0.2em;
- }
+}
 
 .address p{
 	font-size: 0.1em;
@@ -191,7 +191,7 @@ margin:auto;
    left:10%;
    overflow: hidden;
    font-size: 1em;
- }
+}
 
  .navi_02 a{
    float:left;
@@ -200,7 +200,7 @@ margin:auto;
    color: white;
    text-decoration: none;
 	 font-size: 0.3em;
- }
+}
 
  .logo{
    position: absolute;
@@ -209,11 +209,11 @@ margin:auto;
    padding: 1%;
    width:30%;
    height: auto;
- }
+}
 
  .logo img{
    width:5em;
- }
+}
 
 /*追加*/
 #kodawari{
@@ -283,7 +283,7 @@ margin:auto;
 	text-align: center;
 	width:100%;
 	margin-top: 8%;
-	color: #492a27
+	color: #492a27;
 }
 
 #menu ul{
