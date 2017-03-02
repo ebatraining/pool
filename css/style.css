@@ -158,10 +158,14 @@ body{
   width:100%;
 }
 
+.shop{
+  position: absolute;
+  top: 83%;
+  left: 0%;
+  width: 100%;
+}
 .shop p{
-  top:83%;
-  left:30%;
-  position:absolute;
+  text-align: center;
 }
 
 .address{
@@ -180,7 +184,7 @@ body{
   top:5%;
   left:12%;
   overflow: hidden;
-  font-size: 1.5em;
+  font-size: 1em;
   padding-top:2%;
 }
 
@@ -203,28 +207,40 @@ body{
 .logo img{
   width:12em;
 }
-
-/*こだわり*/
-#kodawari h1{
+#kodawari{
 	width:100%;
-	margin: 3% 25% 10% 25%;
 }
+
+#kodawari h1,
+#kodawari h2,
+#kodawari h3{
+	text-align: center;
+	/*
+	margin: 3% 0% 10% 0%;
+	*/
+	padding:3% 0 10% 0;
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+
 #coffee,
 #tea,
 #hanbai{
-	width: 100%;
-	padding-left: 20%;
+	width: 80%;
+	padding-left: 15%;
 	padding-bottom: 8%;
 }
 
 #coffee img,
 #tea img,
 #hanbai img{
-	width:25%;
+	width:30%;
 	height: auto;
 }
 .setumei{
 	line-height: 1em;
+	width:80%;
+	padding: 1% 0;
 }
 
 /*アクセス*/

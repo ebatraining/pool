@@ -23,9 +23,9 @@ margin:auto;
 }
 
 .navi_01{
-  width:100%;
+  width:98%;
   margin:0;
-  padding: 0.5em 0;
+  padding: 1% 1%;
   height: 20%;
   background-color:#ffffff;
   /*position:fixed;
@@ -53,14 +53,14 @@ margin:auto;
   text-decoration: none;
   color: #7a4b4a;
   font-weight: bold;
-	font-size: 0.5em;
+  font-size: 0.5em;
 }
 
 .navi_01 img{
   display: inline-block;
   vertical-align: middle;
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   margin-top: 10px;
   margin-bottom: 10px;
   *display: inline;
@@ -125,21 +125,18 @@ margin:auto;
 .pagetop{
   position:fixed;
   bottom: 1em;
-  right:1%;
+  right:0;
   z-index: 100000;
+  width:23%;
 }
 
-.pagetop a
-   {
+.pagetop a{
    display: block;
    text-decoration: none;
-	 width:80%;
    }
-.pagetop img{
-	width:80%;
-}
-.pagetop:hover
-{
+
+
+.pagetop:hover{
    opacity: 0.85 ;
  }
  #footer{
@@ -156,12 +153,16 @@ margin:auto;
    width:100%;
  }
 
- .shop p{
-   top:78%;
-   left:30%;
-   position:absolute;
-   font-size: 0.1em;
- }
+.shop{
+  position: absolute;
+  top: 78%;
+  left: 0%;
+  width: 100%;
+}
+.shop p{
+  text-align: center;
+  font-size: 0.1em;
+}
 
  .address{
    position:absolute;
@@ -170,10 +171,10 @@ margin:auto;
    padding-bottom: 2%;
    width:60%;
    height: auto;
-   line-height: 0.3em;
+   line-height: 0.2em;
  }
 .address p{
-	font-size: 0.2em;
+	font-size: 0.1em;
 }
  .navi_02{
    width:88%;
@@ -181,7 +182,7 @@ margin:auto;
    top:5%;
    left:10%;
    overflow: hidden;
-   font-size: 1.5em;
+   font-size: 1em;
  }
 
  .navi_02 a{
@@ -205,26 +206,40 @@ margin:auto;
    width:5em;
  }
 /*追加*/
-#kodawari h1{
+#kodawari{
 	width:100%;
-	margin: 3% 25% 10% 25%;
 }
+
+#kodawari h1,
+#kodawari h2,
+#kodawari h3{
+	text-align: center;
+	/*
+	margin: 3% 0% 10% 0%;
+	*/
+	padding:3% 0 10% 0;
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+
 #coffee,
 #tea,
 #hanbai{
-	width: 100%;
-	padding-left: 20%;
+	width: 80%;
+	padding-left: 15%;
 	padding-bottom: 8%;
 }
 
 #coffee img,
 #tea img,
 #hanbai img{
-	width:25%;
+	width:30%;
 	height: auto;
 }
 .setumei{
 	line-height: 1em;
+	width:80%;
+	padding: 1% 0;
 }
 
 /*アクセス*/
