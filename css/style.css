@@ -5,7 +5,7 @@ body{
 }
 
 #wrapper{
-  width: 100%;
+	width: 100%;
 	max-width:1000px;
 	margin:auto;
 }
@@ -26,7 +26,7 @@ body{
 .navi_01{
   width:100%;
   margin:0;
-  padding: 0.5em 0;
+  padding: 2% 0;
   height: 20%;
   background-color:#ffffff;
   /*position:fixed;
@@ -40,9 +40,8 @@ body{
 
 .navi_01 li{
   display: inline-block;
-  vertical-align: middle;
   list-style: none;
-  margin: 0.5em 2% 0.5em 2%;
+  margin: 2%;
   padding: 0;
   /*
   *display: inline;
@@ -95,7 +94,7 @@ body{
 }
 
 #news p{
-  font-size:1.5em;
+  font-size:90%;
   color: #492a27;
 }
 
@@ -112,33 +111,28 @@ body{
   width:20%
 }
 
-/*
 #page-top {
     position: fixed;
-    bottom: 13%;
-    right: 6%;
-    width: 7%;
-    z-index: 100000;
-}
-*/
-
-.pagetop{
-  position:fixed;
-  bottom:0
-  right:0;
-  z-index: 100000;
+    bottom: 20px;
+    right: 20px;
+    font-size: 77%;
+    z-index: 1000000;
 }
 
-.pagetop a{
-   display: block;
-   text-decoration: none;
-   }
+#page-top a {
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    padding: 30px 0;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+    z-index: 
+}
 
-.pagetop:hover
-{
-   opacity: 0.85 ;
- }
-
+#page-top a:hover {
+    text-decoration: none;
+}
 
 
 #footer{
@@ -174,7 +168,7 @@ body{
   padding: 2%;
   width:45%;
   height: auto;
-  line-height: 0.5em;
+  line-height: 40%;
 }
 
 .navi_02{
@@ -183,7 +177,7 @@ body{
   top:5%;
   left:12%;
   overflow: hidden;
-  font-size: 1em;
+  font-size: 90%;
   padding-top:2%;
 }
 
@@ -203,9 +197,12 @@ body{
   width:40%;
   height: auto;
 }
+
 .logo img{
-  width:12em;
+  width:100%;
+  height: auto;
 }
+
 #kodawari{
 	width:100%;
 }
@@ -218,8 +215,8 @@ body{
 	margin: 3% 0% 10% 0%;
 	*/
 	padding:3% 0 10% 0;
-	font-size: 1.2em;
-	line-height: 1.5em;
+	font-size: 120%;
+	line-height: 100%;
 }
 
 #coffee,
@@ -236,6 +233,7 @@ body{
 	width:30%;
 	height: auto;
 }
+
 .setumei{
 	line-height: 1em;
 	width:80%;
@@ -265,11 +263,13 @@ body{
 #block_02{
 	overflow: hidden;
 }
+
 #menu{
 	width:30%;
 	float:left;
 	margin-left: 3%;
 }
+
 #menuwrap{
 	width:60%;
 	float:right;
@@ -277,19 +277,23 @@ body{
 	margin-right: 5%;
 	color: #492a27
 }
+
 #menu{
   margin-top: 8%;
 }
+
 #menu ul{
   margin: 0;
   padding: 0;
   list-style: none;
 }
+
 #menu li{
   display: inline;
   padding: 0;
   margin: 0;
 }
+
 #menu li a{
   display: block;
   border-left: 8px solid #C97556;
@@ -303,10 +307,12 @@ body{
   font-size: 1em;
   font-weight: bold;
 }
+
 #menu li a:hover{
   border-left: 8px solid #990033;
   background-color: #e9ddc0;
 }
+
 .bar{
   width: 80%;
   border-bottom: 2px;
@@ -319,6 +325,7 @@ body{
 #menuwrap h3{
   color: #954444;
 }
+
 .main_group,
 .group5,
 .pasuta,
@@ -337,6 +344,7 @@ body{
   float:left;
 	width:45%;
 }
+
 .group2,
 .group4,
 .drink09

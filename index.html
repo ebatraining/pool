@@ -15,55 +15,8 @@
 <link rel="stylesheet" type="text/css" href="css/mobile.css" >
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script type="text/javascript">
-$(document).ready(function(){
-
-    $(".pagetop").hide();
-
-    $(window).on("scroll", function() {
-
-        if ($(this).scrollTop() > 100) {
-            $('.pagetop').slideDown("fast");
-        } else {
-            $('.pagetop').slideUp("fast");
-        }
-
-
-        scrollHeight = $(document).height();
-        // ドキュメントの高さ
-        scrollPosition = $(window).height() + $(window).scrollTop();
-        //　ウィンドウの高さ+スクロールした高さ→　現在のトップからの位置
-        footHeight = $("footer").innerHeight();
-        // フッターの高さ
-
-        if ( scrollHeight - scrollPosition  <= footHeight ) {
-        // 現在の下から位置が、フッターの高さの位置にはいったら
-        //  ".gotop"のpositionをabsoluteに変更し、フッターの高さの位置にする
-            $(".pagetop").css({
-                "position":"absolute",
-                "bottom": footHeight
-            });
-        } else {
-        // それ以外の場合は元のcssスタイルを指定
-            $(".pagetop").css({
-                "position":"fixed",
-                "bottom": "0px"
-            });
-        }
-    });
-
-    // トップへスムーススクロール
-    $('.pagetop a').click(function () {
-        $('body,html').animate({
-        scrollTop: 0
-      }, 450);
-        // ページのトップへ 500 のスピードでスクロールする
-        return false;
-     });
-
-});
-/*1
 $(function() {
-    var topBtn = $('#page-top');
+    var topBtn = $('#page-top');    
     topBtn.hide();
     //スクロールが100に達したらボタン表示
     $(window).scroll(function () {
@@ -81,9 +34,6 @@ $(function() {
         return false;
     });
 });
-*/
-</script>
-<script type="text/javascript">
 $(function(){
 $("#header").load("header.html");
 $("#footer").load("footer.html");
@@ -94,8 +44,8 @@ $("#footer").load("footer.html");
 </head>
 <body>
   <div id="wrapper">
-    <p class="pagetop">
-      <a href="#wrapper" title="トップへ戻る">
+    <p id="page-top">
+      <a href="#wrap" title="トップへ戻る">
       <img src="./img/pagetop.png" alt="▲PAGE TOP" /></a>
     </p>
     <div id="header">

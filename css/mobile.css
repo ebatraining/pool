@@ -17,6 +17,7 @@ margin:auto;
   width:100%;
   height:auto;
 }
+
 .top_img img{
   width:100%;
   height: auto;
@@ -49,6 +50,7 @@ margin:auto;
   *zoom:1;
   */
 }
+
 .navi_01 a{
   text-decoration: none;
   color: #7a4b4a;
@@ -117,30 +119,29 @@ margin:auto;
   margin: 5%;
   width:30%
 }
-/*
+
 #page-top {
     position: fixed;
-    bottom: 13%;
-    right: 6%;
-    width: 7%;
-    z-index: 100000;
-}
-*/
-.pagetop{
-  position:fixed;
-  bottom: 0;
-  right:0;
-  z-index: 100000;
+    bottom: 20px;
+    right: 20px;
+    font-size: 77%;
+    z-index: 1000000;
 }
 
-.pagetop a{
-   display: block;
-   text-decoration: none;
-   }
+#page-top a {
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    padding: 30px 0;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+    z-index: 
+}
 
-.pagetop:hover{
-opacity: 0.85 ;
- }
+#page-top a:hover {
+    text-decoration: none;
+}
 
 
  #footer{
@@ -163,6 +164,7 @@ opacity: 0.85 ;
   left: 0%;
   width: 100%;
 }
+
 .shop p{
   text-align: center;
   font-size: 0.1em;
@@ -177,9 +179,11 @@ opacity: 0.85 ;
    height: auto;
    line-height: 0.2em;
  }
+
 .address p{
 	font-size: 0.1em;
 }
+
  .navi_02{
    width:88%;
    position:absolute;
@@ -206,9 +210,11 @@ opacity: 0.85 ;
    width:30%;
    height: auto;
  }
+
  .logo img{
    width:5em;
  }
+
 /*追加*/
 #kodawari{
 	width:100%;
@@ -240,6 +246,7 @@ opacity: 0.85 ;
 	width:30%;
 	height: auto;
 }
+
 .setumei{
 	line-height: 1em;
 	width:80%;
@@ -283,10 +290,11 @@ opacity: 0.85 ;
   margin: 0;
   padding: 0;
   list-style: none;
-	overflow: hidden;
-	width: 93%;
-	padding-left: 7%;
+  overflow: hidden;
+  width: 93%;
+  padding-left: 7%;
 }
+
 #menu li{
   display: inline;
   padding: 2%;
@@ -295,6 +303,7 @@ opacity: 0.85 ;
 	width:5em;
 	height:2em;
 }
+
 #menu li a{
   display: block;
   border-left: 8px solid #C97556;
@@ -308,10 +317,12 @@ opacity: 0.85 ;
   font-size: 0.6em;
   font-weight: bold;
 }
+
 #menu li a:hover{
   border-left: 8px solid #990033;
   background-color: #e9ddc0;
 }
+
 .bar{
   width: 80%;
   border-bottom: 2px;
@@ -324,6 +335,7 @@ opacity: 0.85 ;
 #menuwrap h2,{
   color: #954444;
 }
+
 .main_group{
 	margin-top: 5%;
 	overflow: hidden;
@@ -333,6 +345,7 @@ opacity: 0.85 ;
   float:left;
 	width:50%;
 }
+
 .group2{
   float: right;
 	width: 50%;
@@ -341,6 +354,7 @@ opacity: 0.85 ;
 .dessert02{
 	line-height: 0.4em;
 }
+
 .main_group_d1{
 	text-align: center;
 	overflow: hidden;
