@@ -124,13 +124,12 @@ body{
 
 .pagetop{
   position:fixed;
-  bottom: 3em;
-  right:3em;
+  bottom:0
+  right:0;
   z-index: 100000;
 }
 
-.pagetop a
-   {
+.pagetop a{
    display: block;
    text-decoration: none;
    }

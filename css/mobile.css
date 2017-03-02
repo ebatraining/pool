@@ -87,14 +87,18 @@ margin:auto;
 .menu_icon,
 .news_icon,
 .sns_icon{
-  margin: 2%;
+  width:100%
 }
 
-.menu_icon img,
+.menu_icon img{
+  width: 100%;
+}
+
 .news_icon img,
 .sns_icon img{
-  margin:2%;
+  width: 20%;
 }
+
 
 #news p{
   font-size:1em;
@@ -124,10 +128,9 @@ margin:auto;
 */
 .pagetop{
   position:fixed;
-  bottom: 1em;
+  bottom: 0;
   right:0;
   z-index: 100000;
-  width:23%;
 }
 
 .pagetop a{
@@ -135,10 +138,11 @@ margin:auto;
    text-decoration: none;
    }
 
-
 .pagetop:hover{
-   opacity: 0.85 ;
+opacity: 0.85 ;
  }
+
+
  #footer{
    width: 100%;
    height: auto;
