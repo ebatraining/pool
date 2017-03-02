@@ -1,7 +1,7 @@
 @media screen and (max-width:767px){
 
 body{
-	font-family: "メイリオ", "Meiryo", "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro",sans-serif;height:100%;margin: 0px;
+  font-family: "メイリオ", "Meiryo", "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro",sans-serif;height:100%;margin: 0px;
 }
 
 #wrapper{
@@ -17,7 +17,6 @@ margin:auto;
   width:100%;
   height:auto;
 }
-
 .top_img img{
   width:100%;
   height: auto;
@@ -26,7 +25,7 @@ margin:auto;
 .navi_01{
   width:98%;
   margin:0;
-  padding: 1% 1%;
+  padding: 1%;
   height: 20%;
   background-color:#ffffff;
   /*position:fixed;
@@ -35,9 +34,9 @@ margin:auto;
   */
   text-align: center;
   list-style: none;
-	/*
-	display: block;
-	*/
+  /*
+  display: block;
+  */
 }
 
 .navi_01 li{
@@ -50,7 +49,6 @@ margin:auto;
   *zoom:1;
   */
 }
-
 .navi_01 a{
   text-decoration: none;
   color: #7a4b4a;
@@ -89,18 +87,17 @@ margin:auto;
 .menu_icon,
 .news_icon,
 .sns_icon{
-  width:100%
+  width:100%;
 }
 
 .menu_icon img{
-  width: 100%;
+  width:100%;
 }
 
 .news_icon img,
 .sns_icon img{
-  width: 20%;
+  width:20%;
 }
-
 
 #news p{
   font-size:1em;
@@ -119,29 +116,36 @@ margin:auto;
   margin: 5%;
   width:30%
 }
-
-#page-top{
+/*
+#page-top {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
-    font-size: 77%;
-    z-index: 1000000;
+    bottom: 13%;
+    right: 6%;
+    width: 7%;
+    z-index: 100000;
+}
+*/
+#page-top{
+  position: fixed;
+  bottom:20px;
+  right:20px;
+  font-size: 77%;
+  z-index: 100000;
 }
 
 #page-top a{
-    text-decoration: none;
-    color: #fff;
-    width: 100px;
-    padding: 30px 0;
-    text-align: center;
-    display: block;
-    border-radius: 5px;
+  text-decoration: none;
+  color:#fff;
+  width: 100px;
+  padding:30px 0;
+  text-align: center;
+  display: block;
+  border-radius: 5px;
 }
 
 #page-top a:hover{
-    text-decoration: none;
+  text-decoration: none;
 }
-
 
  #footer{
    width: 100%;
@@ -150,12 +154,12 @@ margin:auto;
    color: #ffffff;
    position: relative;
    background-image: url("./img/background.jpg")
-}
+ }
 
 
  .background img{
    width:100%;
-}
+ }
 
 .shop{
   position: absolute;
@@ -163,34 +167,31 @@ margin:auto;
   left: 0%;
   width: 100%;
 }
-
-.shop p{
+ .shop p{
   text-align: center;
   font-size: 0.1em;
-}
+ }
 
-.address{
+ .address{
    position:absolute;
    top:40%;
    left:4%;
-   padding-bottom: 2%;
-   width:60%;
+   padding: 2%;
+   width:48%;
    height: auto;
-   line-height: 0.2em;
-}
-
+   line-height: 0.3em;
+ }
 .address p{
-	font-size: 0.1em;
+  font-size: 0.3em;
 }
-
  .navi_02{
    width:88%;
    position:absolute;
    top:5%;
    left:10%;
    overflow: hidden;
-   font-size: 1em;
-}
+   font-size: 1.5em;
+ }
 
  .navi_02 a{
    float:left;
@@ -198,73 +199,56 @@ margin:auto;
    text-align: center;
    color: white;
    text-decoration: none;
-	 font-size: 0.3em;
-}
+   font-size: 0.3em;
+ }
 
  .logo{
    position: absolute;
-   top:17%;
-   left:2%;
-   padding: 1%;
+   top:20%;
+   left:4%;
+   padding: 2%;
    width:30%;
    height: auto;
-}
-
+ }
  .logo img{
-   width:5em;
-}
-
+   width:6em;
+ }
 /*追加*/
-#kodawari{
-	width:100%;
+#kodawari h1{
+  width:100%;
+  margin: 3% 25% 10% 25%;
 }
-
-#kodawari h1,
-#kodawari h2,
-#kodawari h3{
-	text-align: center;
-	/*
-	margin: 3% 0% 10% 0%;
-	*/
-	padding:3% 0 10% 0;
-	font-size: 1.2em;
-	line-height: 1.5em;
-}
-
 #coffee,
 #tea,
 #hanbai{
-	width: 80%;
-	padding-left: 15%;
-	padding-bottom: 8%;
+  width: 100%;
+  padding-left: 20%;
+  padding-bottom: 8%;
 }
 
 #coffee img,
 #tea img,
 #hanbai img{
-	width:30%;
-	height: auto;
+  width:25%;
+  height: auto;
 }
-
 .setumei{
-	line-height: 1em;
-	width:80%;
-	padding: 1% 0;
+  line-height: 1em;
 }
 
 /*アクセス*/
 
 #access{
-	width:100%;
-	text-align: center;
+  width:100%;
+  text-align: center;
 }
 
 .jyusyo{
-	line-height: 2em;
+  line-height: 2em;
 }
 
 .map iframe{
-	width:500px;
+  width:500px;
  height:300px;
  text-align: center;
  margin-top: 50px;
@@ -273,16 +257,16 @@ margin:auto;
 /*デザート*/
 
 #menu{
-	width:98%;
-	margin:8% 0% 2% 0%;
+  width:98%;
+  margin:8% 0% 2% 0%;
 }
 
 
 #menuwrap{
-	text-align: center;
-	width:100%;
-	margin-top: 8%;
-	color: #492a27;
+  text-align: center;
+  width:100%;
+  margin-top: 8%;
+  color: #492a27
 }
 
 #menu ul{
@@ -293,16 +277,14 @@ margin:auto;
   width: 93%;
   padding-left: 7%;
 }
-
 #menu li{
   display: inline;
   padding: 2%;
   margin: 0;
-	float: left;
-	width:5em;
-	height:2em;
+  float: left;
+  width:5em;
+  height:2em;
 }
-
 #menu li a{
   display: block;
   border-left: 8px solid #C97556;
@@ -316,53 +298,48 @@ margin:auto;
   font-size: 0.6em;
   font-weight: bold;
 }
-
 #menu li a:hover{
   border-left: 8px solid #990033;
   background-color: #e9ddc0;
 }
-
 .bar{
   width: 80%;
   border-bottom: 2px;
   border-style:solid;
   border-color: #954444;
-	text-align: center;
-	margin: auto;
+  text-align: center;
+  margin: auto;
 }
 
-#menuwrap h2{
+#menuwrap h2,{
   color: #954444;
 }
-
 .main_group{
-	margin-top: 5%;
-	overflow: hidden;
+  margin-top: 5%;
+  overflow: hidden;
 }
 
 .group1{
   float:left;
-	width:50%;
+  width:50%;
 }
-
 .group2{
   float: right;
-	width: 50%;
+  width: 50%;
 }
 
 .dessert02{
-	line-height: 0.4em;
+  line-height: 0.4em;
 }
-
 .main_group_d1{
-	text-align: center;
-	overflow: hidden;
+  text-align: center;
+  overflow: hidden;
 }
 
 .group_d1,
 .group_d2{
-	width:80%;
-	padding:10%;
+  width:80%;
+  padding:10%;
 }
 
 }
