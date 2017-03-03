@@ -128,7 +128,7 @@ body{
     text-align: center;
     display: block;
     border-radius: 5px;
-    z-index: 
+    border:0;
 }
 
 #page-top a:hover {
