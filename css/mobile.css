@@ -52,7 +52,7 @@ body{
   text-decoration: none;
   color: #7a4b4a;
   font-weight: bold;
-  font-size: 20%;
+  font-size: 0.5rem;
 }
 
 .navi_01 img{
@@ -89,16 +89,16 @@ body{
 }
 
 .menu_icon img{
-	width: 80%;
+	width: 70%;
 }
 
 .news_icon img,
 .sns_icon img{
-	width: 50%;
+	width: 30%;
 }
 
 #news p{
-  font-size:90%;
+  font-size:0.9rem;
   color: #492a27;
 }
 
@@ -126,7 +126,7 @@ body{
     color: #fff;
     text-align: center;
     display: block;
-    z-index: 
+    z-index:
 }
 
 #page-top a:hover {
@@ -134,7 +134,7 @@ body{
 }
 
 #page-top img{
-	width:56%;
+	width:50%;
 }
 
 #footer{
@@ -155,36 +155,34 @@ body{
 
 .shop{
   position: absolute;
-  top: 83%;
+  top: 77%;
   left: 0%;
   width: 100%;
 }
 .shop p{
   text-align: center;
-  font-size: 5%;
+  font-size: 0.5rem;
 }
 
 .address{
   position:absolute;
-  top:40%;
-  left:4%;
+  top:38%;
+  left:7%;
   height: auto;
   line-height: 30%;
-  font-size: 5%;
 }
 
 .address p{
-	font-size: 10%;
+	font-size: 0.6rem;
 	line-height: 40%;
 }
 
 .navi_02{
-  width:88%;
+  width:80%;
   position:absolute;
-  top:5%;
-  left:12%;
+  top:1%;
+  left:20%;
   overflow: hidden;
-  font-size: 90%;
   padding-top:2%;
 }
 
@@ -194,13 +192,13 @@ body{
   text-align: center;
   color: white;
   text-decoration: none;
-  font-size: 10%;
+  font-size: 0.5rem;
 }
 
 .logo{
   position: absolute;
   top:20%;
-  left:4%;
+  left:7%;
   width:20%;
   height: auto;
 }
