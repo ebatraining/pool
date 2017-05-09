@@ -16,7 +16,7 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script type="text/javascript">
 $(function() {
-    var topBtn = $('#page-top');    
+    var topBtn = $('#page-top');
     topBtn.hide();
     //スクロールが100に達したらボタン表示
     $(window).scroll(function () {
@@ -50,9 +50,7 @@ $("#footer").load("footer.html");
 		</p>
 		<div id="header">
 		</div>
-		<div class="top_img">
-			<img src="img/top05.png" alt="トップ画像">
-		</div>
+		
 		<div id="osusume">
 			<div class="menu_icon">
 				<img src="img/osusumebar.png" alt="おススメ">
@@ -60,10 +58,34 @@ $("#footer").load("footer.html");
 			<div class="menu_bar01">
 			</div>
 			<div class="menu_01">
-				<img src="img/cake.png" alt="苺ケーキ">
-				<img src="img/cefelatte03.png" alt="カフェラテ">
-				<img src="img/hanba-gu.png" alt="ハンバーグ">
-				<img src="img/banira.png" alt="バニラアイス">
+        <div class="menu_01_01">
+          <a href="dessert.html#dessert" class="cake">
+          <figure>
+            <img src="img/cake.png" alt="苺ケーキ">
+            <figcaption>練乳いちごの<br>シフォンケーキ</figcaption>
+          </figure>
+        </a><!--cake-->
+        <a href="drink.html#drink" class="cafelatte">
+          <figure>
+            <img src="img/cefelatte03.png" alt="カフェラテ">
+            <figcaption>カフェラテ</figcaption>
+          </figure>
+        </a><!--cafelate-->
+      </div><!--menu_01_01-->
+      <div class="menu_01_02">
+        <a href="food.html#rice" class="hamburg">
+          <figure>
+            <img src="img/hanba-gu.png" alt="ハンバーグ">
+            <figcaption>ハンバーグ<br>とライス</figcaption>
+          </figure>
+        </a><!--hamburg-->
+        <a href="dessert.html#dessert" class="ice">
+          <figure>
+            <img src="img/banira.png" alt="バニラアイス">
+            <figcaption>バニラ<br>アイスクリーム</figcaption>
+          </figure>
+        </a><!--ice-->
+      </div><!--menu_01_02-->
 			</div>
 		</div>
 		<div id="news">

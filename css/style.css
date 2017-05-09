@@ -6,14 +6,15 @@ body{
 
 #wrapper{
 	width: 100%;
-	max-width:1000px;
 	margin:auto;
 }
 
 #header{
   width:100%;
 }
-
+img{
+	border-style: none;
+}
 .top_img{
   width:100%;
   height:auto;
@@ -24,15 +25,10 @@ body{
 }
 
 .navi_01{
-  width:100%;
-  margin:0;
-  padding: 2% 0;
-  height: 20%;
+  width:90%;
+  margin:auto;
+  padding:0;
   background-color:#ffffff;
-  /*position:fixed;
-  top: 0px;
-  left: 0px;
-  */
   text-align: center;
   list-style: none;
   display: block;
@@ -78,8 +74,9 @@ body{
 #osusume,
 #news,
 #sns{
+	max-width: 1000px;
   text-align: center;
-  margin: 5%;
+  margin: auto;
 }
 
 .menu_icon,
@@ -101,10 +98,107 @@ body{
 
 .menu_01{
   width: 100%;
+
 }
+
+.cake,
+.cafelatte,
+.hamburg,
+.ice{
+	display: block;
+	float: left;
+	overflow: hidden;
+	width:20%;
+	padding: 2%;
+}
+
+.cake img,
+.cafelatte img,
+.hamburg img,
+.ice img{
+	height: auto;
+	-webkit-transition:all 0.25s ease-in-out;
+  transition:all 0.25s ease-in-out;
+  width: 100%;
+  vertical-align: bottom;
+}
+
+figure{
+	margin: 0;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+	}
+
+figcaption{
+	background-color: rgba(0,0,0,0.6);
+    color: #FFF;
+    opacity: 0;
+    font-size: 16px;
+    font-size: 1.6rem;
+    position: absolute;
+    text-align: center;
+    -webkit-transition:all 0.25s ease-in-out;
+    transition:all 0.25s ease-in-out;
+		top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    padding-top: 25%;
+}
+
+.cake:hover>figure img {
+        transform: scale(1.15,1.15);
+        -webkit-transform:scale(1.15,1.15);
+        -moz-transform:scale(1.15,1.15);
+        -ms-transform:scale(1.15,1.15);
+        -o-transform:scale(1.15,1.15);
+}
+
+.cake:hover>figure figcaption {
+    opacity: 1;
+}
+.cafelatte:hover>figure img {
+        transform: scale(1.15,1.15);
+        -webkit-transform:scale(1.15,1.15);
+        -moz-transform:scale(1.15,1.15);
+        -ms-transform:scale(1.15,1.15);
+        -o-transform:scale(1.15,1.15);
+}
+
+.cafelatte:hover>figure figcaption {
+    opacity: 1;
+}
+.hamburg:hover>figure img {
+        transform: scale(1.15,1.15);
+        -webkit-transform:scale(1.15,1.15);
+        -moz-transform:scale(1.15,1.15);
+        -ms-transform:scale(1.15,1.15);
+        -o-transform:scale(1.15,1.15);
+}
+
+.hamburg:hover>figure figcaption {
+    opacity: 1;
+}
+.ice:hover>figure img {
+        transform: scale(1.15,1.15);
+        -webkit-transform:scale(1.15,1.15);
+        -moz-transform:scale(1.15,1.15);
+        -ms-transform:scale(1.15,1.15);
+        -o-transform:scale(1.15,1.15);
+}
+
+.ice:hover>figure figcaption {
+    opacity: 1;
+}
+
+
+
 
 .menu_01 img{
   margin:5% 1%;
+	width:100%;
 }
 
 .sns_img img{
@@ -169,7 +263,7 @@ body{
   padding: 2%;
   width:45%;
   height: auto;
-  line-height: 40%;
+  line-height: 1em;
 }
 
 .navi_02{
@@ -188,6 +282,8 @@ body{
   text-align: center;
   color: white;
   text-decoration: none;
+
+	font-size: 1.5em;
 }
 
 .logo{
@@ -209,33 +305,50 @@ body{
   text-align: center;
 }
 
-#kodawari h1,
 #kodawari h2,
 #kodawari h3{
 	text-align: center;
-	/*
-	margin: 3% 0% 10% 0%;
-	*/
-	font-size: 200%;
+	font-size: 1.5em;
+	padding: 0;
+	margin: 0;
+	line-height: 1.5em;
 }
 
+#kodawari h1,
+#access h1{
+	background-image: url(../img/back.jpg);
+	background-size: cover;
+	background-repeat: repeat;
+	color: #ffffff;
+	line-height: 2em;
+	margin-top: 2em;
+	text-align: center;
+	font-size: 2.5em;
+}
 #coffee,
 #tea,
 #hanbai{
 	padding-bottom: 8%;
+	overflow: hidden;
+	width: 100%;
 }
 
 #coffee img,
 #tea img,
 #hanbai img{
-	width:30%;
+	float: left;
+	width:36%;
 	height: auto;
+	padding:0 0 0 10%;
+	margin-top: 6%;
 }
 
 .setumei{
-	line-height: 100%;
-	width:90;
-	padding: 1% 0;
+	float: right;
+	line-height: 1.3em;
+	width:40%;
+	padding: 7% 10% 3% 0;
+	font-size: 1.2em;
 }
 
 /*アクセス*/
@@ -253,11 +366,15 @@ body{
  margin-bottom: 5%;
 
 }
-
+.jyusyo{
+	width:100%;
+	margin:auto;
+}
 /*デザート*/
 #block_01,
 #block_02{
 	overflow: hidden;
+	margin-bottom: 5rem;
 }
 
 #menu{
@@ -343,6 +460,7 @@ body{
 
 .pasuta02{
 	float: right;
+	width: 45%;
 }
 .group2,
 .group4,
@@ -358,4 +476,8 @@ body{
 	line-height: 30%;
 }
 
+.dessert03,
+.dessert04{
+	margin-top: 3rem;
+}
 }
