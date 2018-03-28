@@ -355,21 +355,40 @@ figcaption{
 
 #access{
 	width:100%;
-	text-align: center;
 }
 
-.map iframe{
-	width:60%;
- height:auto;
- text-align: center;
- margin-top: 5%;
- margin-bottom: 5%;
-
+.xxx{
+    /*overflow: hidden;*/
+    max-width:1000px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-around;
 }
+
+.pool{
+    /*float:left;*/
+    width:35%;
+    margin-left:2%;
+}
+    
+.pool img{
+    width:100%;
+}
+    
+#map{
+    width: 55%;
+    height: 600px;
+    /*float: right;*/
+    margin-right:2%;
+}
+    
+    
 .jyusyo{
-	width:100%;
 	margin:auto;
+    text-align: left;
 }
+    
+    
 /*デザート*/
 #block_01,
 #block_02{

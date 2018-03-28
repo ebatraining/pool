@@ -364,33 +364,32 @@ figcaption{
 #access{
 	width:100%;
 	text-align: center;
+    
 }
-.pool img{
-	width:70%;
-	height: auto;
-	margin: auto;
-}
-img{
-	border-style: none;
-}
-.map iframe{
-	width:60%;
- height:auto;
+
+.pool{
+     margin-top:10%    
+    }
+    
+#map{
+    width: 90%;
+    height: 300px;
+    margin: 20% auto;
+    }
+    
+/*.map iframe{
+width:60%;
+ height ;
  text-align: center;
  margin-top: 5%;
  margin-bottom: 5%;
-
-}
-
+ float: right;
+}*/
+    
 .jyusyo{
-	width: 90%;
 	margin:auto;
+   
 }
-
-.jyusyo p{
-	font-size: 0.8em;
-}
-
 
 /*デザート*/
 #block_01,
